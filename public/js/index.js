@@ -13,3 +13,11 @@ setInterval(() => {
     min.style.transform = `rotateZ(${mm}deg)`;
     sec.style.transform = `rotateZ(${ss}deg)`;
 })
+
+var count = 0;
+
+function mode_change()
+{
+    const body = document.querySelector('body');
+    body.classList.toggle('mode_color');    
+}
